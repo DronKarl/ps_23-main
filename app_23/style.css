@@ -1,0 +1,500 @@
+@media screen{
+
+    .p_phone{
+        margin: auto;
+        border: 12px solid gray;
+        transform: rotate(90deg);
+        width: 320px;
+        height: 700px;
+        border-radius: 45px;
+        position: relative;
+        box-shadow: black;
+        left: 20vh;
+        float: none;
+    }
+    .v-phone{
+        margin: auto;
+        border: 12px solid gray;
+        width: 320px;
+        height: 700px;
+        border-radius: 45px;
+        position: relative;
+        box-shadow: black;
+        float: left;
+        left: 20vh;
+        bottom: 70vh;
+    }
+
+    .p_screen, .v_screen{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://w0.peakpx.com/wallpaper/730/501/HD-wallpaper-iphone-14-pro-thumbnail.jpg");
+
+        border-radius: 31px;
+        z-index: 10;
+    }
+    .camera, .v_camera{
+        z-index: 50;
+        top: 2px;
+        left: 150px;
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .p_icons, .v_icons{
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    .p_icons div, .v_icons div{
+        z-index: 100;
+        display: block;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+        box-shadow: black;
+        transition: transform 400ms ease-in-out;
+
+    }
+
+    .p_app, .p_app_1, .p_app_2, .p_app_3, .p_app_4 {
+        margin: 10px;
+        z-index: 100;
+        background: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+
+        cursor: pointer;
+        transform: rotate(-90deg);
+        transition: transform 400ms ease-in-out;
+    }
+ .p_app:nth-child(1){
+     background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png");
+     background-size: cover;
+ }
+    .v_app:nth-child(1){
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png");
+        background-size: cover;
+    }
+    .p_app:nth-child(2){
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png");
+        background-size: cover;
+    }
+    .v_app:nth-child(2){
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png");
+        background-size: cover;
+    }
+    .p_app:nth-child(3){
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/480px-Telegram_logo.svg.png");
+        background-size: cover;
+    }
+    .v_app:nth-child(3){
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/480px-Telegram_logo.svg.png");
+        background-size: cover;
+    }
+    .p_app:nth-child(4){
+        background: url("https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png");
+        background-size: cover;
+    }
+    .v_app:nth-child(4){
+        background: url("https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png");
+        background-size: cover;
+    }
+    .p_app_1:nth-child(1){
+        top: 0;
+        background: url("https://cdn.worldvectorlogo.com/logos/pko-bank-polski-1.svg");
+        background-size: cover;
+    }
+    .v_app_1:nth-child(1){
+        top: 0;
+        background: url("https://cdn.worldvectorlogo.com/logos/pko-bank-polski-1.svg");
+        background-size: cover;
+    }
+    .p_app_1:nth-child(2){
+        top: 0;
+        background: url("https://st-aug.edu/wp-content/uploads/2021/09/soundcloud-logo-soundcloud-icon-transparent-png-1.png");
+        background-size: cover;
+    }
+    .v_app_1:nth-child(2){
+        top: 0;
+        background: url("https://st-aug.edu/wp-content/uploads/2021/09/soundcloud-logo-soundcloud-icon-transparent-png-1.png");
+        background-size: cover;
+    }
+    .p_app_1:nth-child(3){
+        top: 0;
+        background: url("https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456");
+        background-size: cover;
+    }
+    .v_app_1:nth-child(3){
+        top: 0;
+        background: url("https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456");
+        background-size: cover;
+    }
+    .p_app_1:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png");
+        background-size: cover;
+    }
+    .v_app_1:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png");
+        background-size: cover;
+    }
+    .p_app_2:nth-child(1){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/767px-WhatsApp.svg.png");
+        background-size: cover;
+    }
+    .v_app_2:nth-child(1){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/767px-WhatsApp.svg.png");
+        background-size: cover;
+    }
+    .p_app_2:nth-child(2){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/512px-Opera_2015_icon.svg.png");
+        background-size: cover;
+    }
+    .v_app_2:nth-child(2){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/512px-Opera_2015_icon.svg.png");
+        background-size: cover;
+    }
+    .p_app_2:nth-child(3){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Icon-notepad.svg/1024px-Icon-notepad.svg.png");
+        background-size: cover;
+    }
+    .v_app_2:nth-child(3){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Icon-notepad.svg/1024px-Icon-notepad.svg.png");
+        background-size: cover;
+    }
+    .p_app_2:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Meet_icon_%282020%29.svg/1200px-Google_Meet_icon_%282020%29.svg.png");
+        background-size: cover;
+    }
+   .v_app_2:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Meet_icon_%282020%29.svg/1200px-Google_Meet_icon_%282020%29.svg.png");
+        background-size: cover;
+    }
+    .p_app_3:nth-child(1){
+        top: 0;
+        background: url("https://www.svgrepo.com/show/13671/youtube.svg");
+        background-size: cover;
+    }
+    .v_app_3:nth-child(1){
+        top: 0;
+        background: url("https://www.svgrepo.com/show/13671/youtube.svg");
+        background-size: cover;
+    }
+    .p_app_3:nth-child(2){
+        top: 0;
+        background: url("https://ww1.freelogovectors.net/wp-content/uploads/2021/10/clash_of_clans_logo-freelogovectors.net_.png");
+        background-size: cover;
+    }
+    .v_app_3:nth-child(2){
+        top: 0;
+        background: url("https://ww1.freelogovectors.net/wp-content/uploads/2021/10/clash_of_clans_logo-freelogovectors.net_.png");
+        background-size: cover;
+    }
+    .p_app_3:nth-child(3){
+        top: 0;
+        background: url("https://www.svgrepo.com/show/353655/discord-icon.svg");
+        background-size: cover;
+    }
+    .v_app_3:nth-child(3){
+        top: 0;
+        background: url("https://www.svgrepo.com/show/353655/discord-icon.svg");
+        background-size: cover;
+    }
+    .p_app_3:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Skype_logo_%282019%E2%80%93present%29.svg/991px-Skype_logo_%282019%E2%80%93present%29.svg.png");
+        background-size: cover;
+    }
+    .v_app_3:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Skype_logo_%282019%E2%80%93present%29.svg/991px-Skype_logo_%282019%E2%80%93present%29.svg.png");
+        background-size: cover;
+    }
+    .p_app_4:nth-child(1){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Icons8_flat_calculator.svg/2048px-Icons8_flat_calculator.svg.png");
+        background-size: cover;
+    }
+    .v_app_4:nth-child(1){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Icons8_flat_calculator.svg/2048px-Icons8_flat_calculator.svg.png");
+        background-size: cover;
+    }
+    .p_app_4:nth-child(2){
+        top: 0;
+        background: url("https://cdn-icons-png.flaticon.com/256/281/281776.png");
+        background-size: cover;
+    }
+
+    .v_app_4:nth-child(2){
+        top: 0;
+        background: url("https://cdn-icons-png.flaticon.com/256/281/281776.png");
+        background-size: cover;
+    }
+    .p_app_4:nth-child(3){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/FaceTime_iOS.svg/1200px-FaceTime_iOS.svg.png");
+        background-size: cover;
+    }
+    .v_app_4:nth-child(3){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/FaceTime_iOS.svg/1200px-FaceTime_iOS.svg.png");
+        background-size: cover;
+    }
+    .p_app_4:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Notes_icon.svg/1024px-Apple_Notes_icon.svg.png");
+        background-size: cover;
+    }
+    .v_app_4:nth-child(4){
+        top: 0;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Notes_icon.svg/1024px-Apple_Notes_icon.svg.png");
+        background-size: cover;
+    }
+    .p_txt_app, .p_txt_app1, .p_txt_app2, .p_txt_app4, .p_txt_app6, .p_txt_app8, .p_txt_app10, .v_txt_app, .v_txt_app1, .v_txt_app2, .v_txt_app4, .v_txt_app6, .v_txt_app8, .v_txt_app10{
+        padding-top: 42px;
+        margin-left: 2px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+
+    }
+    .p_txt_app5, .v_txt_app5{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-right: 20px;
+
+    }
+    .p_txt_app6, .v_txt_app6{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 10px;
+    }
+    .p_txt_app3, .v_txt_app3{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 10px;
+    }
+    .p_txt_app7, .v_txt_app7{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 9px;
+    }
+    .p_txt_app9, .v_txt_app9{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 4px;
+    }
+    .p_txt_app11, .v_txt_app11{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 4px;
+    }
+    .p_txt_app12, .v_txt_app12{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+    }
+    .p_txt_app13, .v_txt_app13{
+        padding-top: 40px;
+        font-family: "Arial";
+        color: #d9d9d9;
+        font-size: 11px;
+        font-style: normal;
+        margin-left: 5px;
+    }
+    .p-time{
+        position: absolute;
+        z-index:100;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+        font-size: 15px;
+        padding-bottom: 4vh;
+        margin-top: 25px;
+        font-family: "Comic Sans MS";
+        font-weight: bold;
+        color: #000000;
+    }
+}
+
+@media screen and (orientation: portrait){
+    html,body{
+        height: 100%;
+    }
+    .p_phone{
+        margin: auto;
+        border: 12px solid gray;
+        width: 320px;
+        height: 700px;
+        border-radius: 45px;
+        position: relative;
+        box-shadow: black;
+    }
+    .p_screen{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("https://w0.peakpx.com/wallpaper/730/501/HD-wallpaper-iphone-14-pro-thumbnail.jpg");
+        border-radius: 31px;
+        z-index: 10;
+    }
+    .camera{
+        z-index: 50;
+        top: 2px;
+        left: 150px;
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        background-color: black;
+        background-size: cover;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .p_icons{
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    .p_icons div{
+        z-index: 100;
+        display: block;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+        box-shadow: black;
+        transition: transform 400ms ease-in-out;
+        background-color: wheat;
+    }
+}
+.p_line, .v_line{
+    position: absolute;
+    bottom: 5px;
+    left: 5vh;
+    width: 70%;
+    height: 10px;
+    background-color: #a6a6a6;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 50;
+}
+.v-time{
+    position: absolute;
+    z-index:100;
+    top: 7px;
+    font-family: "Arial Black";
+    font-weight: bold;
+    left: 15px;
+    color: #000000;
+}
+.p-time{
+    position: absolute;
+    display: block;
+    z-index:100;
+    left: 32px;
+    padding-right: 61vh;
+    font-family: "Arial Black";
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-weight: bold;
+    color: #000000;
+}
+.battery{
+    z-index: 100;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    display: flex;
+}
+.signal{
+    z-index: 100;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 6px;
+    right: 45px;
+    display: flex;
+}
+.wifi{
+    z-index: 100;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 8px;
+    right: 65px;
+    display: flex;
+}
+
+.p-battery{
+    z-index: 100;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    top: 3vh;
+    right: 30vh;
+    display: flex;
+}
+.p-signal{
+    z-index: 100;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    top: 67vh;
+    right: 31vh;
+    padding-top: 6px;
+    display: flex;
+}
+.p-wifi{
+    z-index: 100;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    top: 64vh;
+    right: 31vh;
+    padding-bottom: 5px;
+    display: flex;
+}
